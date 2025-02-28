@@ -1,44 +1,49 @@
 # CLI Browser Search
 
-CLI Browser Search ist ein einfaches Terminal-Tool, mit dem du direkt über das Terminal in verschiedenen Suchmaschinen suchen kannst.
+CLI Browser Search ist ein einfaches Terminal-Tool, mit dem du direkt aus dem Terminal in verschiedenen Suchmaschinen suchen kannst.
 
 ## Features
-- Wähle zwischen den Browsern: Firefox, Chrome oder Brave
-- Unterstützte Suchmaschinen:
-  - Google 🔍
-  - DuckDuckGo 🦆
-  - YouTube 🎥
-- Zufällige Fun Facts beim Start
+- Suche mit Google, DuckDuckGo oder YouTube
+- Wähle deinen Browser (Firefox, Chrome, Brave)
+- Lustige Fun Facts beim Starten
 
 ## Installation
-
-### Voraussetzungen
-- Linux oder Windows
-- Python 3 installiert
-
-### Installieren
+1. **Repository klonen:**
 ```bash
-# Repository klonen
-git clone https://github.com/dein-benutzername/cli-browser-search.git
-cd cli-browser-search
+git clone https://github.com/lsheasel/Browser-Search.git
+cd Browser-Search
+```
 
-# Installationsskript ausführen
+2. **Installationsskript ausführbar machen und ausführen:**
+```bash
 chmod +x install.sh
 ./install.sh
 ```
 
-## Nutzung
-
-Starte das Programm einfach mit:
+3. **Programm starten:**
 ```bash
 search
 ```
 
-Dann wähle deinen Browser, die Suchmaschine und gib ein, wonach du suchen möchtest!
+## Voraussetzungen
+- Python 3 muss installiert sein
+- Unterstützte Browser: Firefox, Google Chrome, Brave
+
+## Vorschau
+```
+██████╗ ██████╗  █████╗ ███████╗███████╗███████╗ ██████╗██╗  ██╗
+██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝██╔════╝██║ ██╔╝
+██║  ██║██████╔╝███████║███████╗███████╗███████╗██║     █████╔╝
+██║  ██║██╔═══╝ ██╔══██║╚════██║╚════██║╚════██║██║     ██╔═██╗
+██████╔╝██║     ██║  ██║███████║███████║███████║╚██████╗██║  ██╗
+╚═════╝ ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝╚═╝  ╚═╝
+CLI Browser Search 🔥
+```
 
 ## Lizenz
-MIT
+Dieses Projekt steht unter der MIT-Lizenz.
 
-## Mitwirken
-Pull Requests sind willkommen! 😎
+---
+
+Viel Spaß beim Suchen! 🔥🚀
 
